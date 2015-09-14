@@ -9,9 +9,9 @@ Plug 'sjl/gundo.vim' " undo history browser
 Plug 'kien/ctrlp.vim'
 
 " work-related
-Plug 'ngmy/vim-rubocop'
-Plug 'tpope/vim-rails'
-Plug 'slim-template/vim-slim'
+"Plug 'ngmy/vim-rubocop'
+"Plug 'tpope/vim-rails'
+"Plug 'slim-template/vim-slim'
 
 " Workflow
 Plug 'Align'
@@ -24,9 +24,9 @@ Plug 'ervandew/screen'
 " Languages
 Plug 'scrooloose/syntastic'
 Plug 'plasticboy/vim-markdown'
-Plug 'zah/nimrod.vim'
-Plug 'kchmck/vim-coffee-script'
-Plug 'digitaltoad/vim-jade'
+"Plug 'zah/nimrod.vim'
+"Plug 'kchmck/vim-coffee-script'
+"Plug 'digitaltoad/vim-jade'
 
 " Integration
 Plug 'tpope/vim-fugitive'
@@ -37,5 +37,9 @@ Plug 'Gist.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'taglist.vim'
 Plug 'majutsushi/tagbar'
+
+" My stuff -- DVS
+Plug 'AutoClose'
+Plug 'dsambor/vim-perl'
 
 call plug#end()

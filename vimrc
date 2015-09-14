@@ -15,7 +15,7 @@ set noswapfile      " no swap files
 set ruler           " always show cursor position
 set showmode        " display curent mode
 set showcmd         " display incomplete commands
-set nu              " show line numbers
+"set nu              " show line numbers
 
 source ~/.vim/plugins.vim       " Plugin list
 source ~/.vim/platform.vim      " platform-specific config
@@ -27,12 +27,12 @@ source ~/.vim/tool_config.vim   " tool-specific config
 
 " APPEARANCE
 syntax enable
-colorscheme jellybeans
+colorscheme blue
 
 " DEFAULT TAB STOPS & INDENTING
-set tabstop=4                   " tab stops
-set softtabstop=2
-set shiftwidth=2                " number of spaces to use for each step of (auto)indent
+"set tabstop=4                   " tab stops
+"set softtabstop=2
+"set shiftwidth=2                " number of spaces to use for each step of (auto)indent
 set shiftround                  " Round indents to multiples of shiftwidth
 set autoindent
 set smartindent
@@ -50,7 +50,7 @@ set ttyfast                     " smoother output, they claim
 " SEARCH
 set ignorecase
 set incsearch
-set hlsearch
+set nohlsearch
 hi Search ctermbg=White ctermfg=Black
 
 " TECHNICAL
@@ -66,3 +66,25 @@ set listchars=tab:▸·,trail:·,nbsp:●
 " uncomment in case of nazi takeover:
 highlight RedundantWhitespace ctermbg=red guibg=red
 match RedundantWhitespace /\s\+$\| \+\ze\t/
+
+" My additions -- DVS
+set keymap=russian-jcuken
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLMNOPQRSTUVWXYZ:,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+
+set tabstop=8 shiftwidth=4 softtabstop=4 expandtab
+set tabpagemax=50
+
+set keymap=russian-jcukenwin
+set iminsert=0
+set imsearch=0
+highlight lCursor guifg=NONE guibg=Cyan
+
+set mousehide
+set visualbell
+" ?:
+set complete=.,w,b,u,t
+
+inoremap <F5> ^R"
+inoremap <S-Insert> ^R"

@@ -1,7 +1,7 @@
 
-color jellybeans
+color blue
 
-set gfn=DejaVu\ Sans\ Mono\ 12
+set gfn=Consolas\ 13
 
 if has("gui_macvim")
   set gfn=Menlo:h16
@@ -10,7 +10,7 @@ endif
 set guioptions-=T " no toolbar
 set guioptions-=r " no right scrollbar
 set guioptions-=L " no left scrollbar
-set guioptions-=m " no menu
+"set guioptions-=m " no menu
 
 set lines=43
 
