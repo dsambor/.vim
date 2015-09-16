@@ -42,4 +42,6 @@ Plug 'majutsushi/tagbar'
 Plug 'AutoClose'
 Plug 'dsambor/vim-perl'
 
+Plug 'tpope/vim-surround'
+
 call plug#end()
