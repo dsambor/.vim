@@ -69,6 +69,7 @@ match RedundantWhitespace /\s\+$\| \+\ze\t/
 
 " My additions -- DVS
 set guicursor+=a:blinkon0
+set nowrap
 set keymap=russian-jcuken
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8
