@@ -41,6 +41,7 @@ Plug 'majutsushi/tagbar'
 " My stuff -- DVS
 Plug 'AutoClose'
 Plug 'dsambor/vim-perl'
+Plug 'mileszs/ack.vim'
 
 Plug 'tpope/vim-surround'
 
