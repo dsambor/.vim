@@ -70,7 +70,7 @@ match RedundantWhitespace /\s\+$\| \+\ze\t/
 " My additions -- DVS
 set guicursor+=a:blinkon0
 set nowrap
-set keymap=russian-jcuken
+set keymap=russian-jcukenwin
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLMNOPQRSTUVWXYZ:,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
@@ -78,7 +78,6 @@ set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLM
 set tabstop=8 shiftwidth=4 softtabstop=4 expandtab
 set tabpagemax=50
 
-set keymap=russian-jcukenwin
 set iminsert=0
 set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan
