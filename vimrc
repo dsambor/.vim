@@ -101,3 +101,5 @@ cnoreabbrev ag Ack
 cnoreabbrev aG Ack
 cnoreabbrev Ag Ack
 cnoreabbrev AG Ack
+
+let g:gitgutter_max_signs=9999
